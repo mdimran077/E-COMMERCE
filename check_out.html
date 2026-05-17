@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>Payment form</title>
+    <link rel="stylesheet" type="text/css" href="check_out.css">
+</head>
+
+<body>
+    hi
+    <a href="home_page.html">
+        <h1 align="center">
+            Online<b style="color: brown;">Shopping.com</b>
+        </h1>
+    </a>
+    <form>
+        <h2 align="center">Payment Form</h2>
+        <div>
+            <p>Required followed by *</p>
+            <div style="display: flex; flex-direction: row;">
+                <fieldset style="width: 400px;">
+                    <legend>
+                        <h2>Product Details</h2>
+                    </legend>
+                    <input type="number" name="quantity" placeholder="*select quantity" required>
+                    <br><br>
+                    <select name="size" required>
+                        <option value="">*Select Size</option>
+                        <option value="visa">S</option>
+                        <option value="rupay">M</option>
+                        <option value="mastercard">L</option>
+                    </select><br><br>
+                    <select name="color" id="">
+                        <option>select color</option>
+                        <option>Black</option>
+                        <option value="">Blue</option>
+                        <option value="">Red</option>
+                    </select>
+                </fieldset>
+                <fieldset style="width: 400px;">
+                    <legend>
+                        <h2>Contact Details</h2>
+                    </legend>
+                    <p>
+                        <input placeholder="Name*" type="text" name="name" required>
+                    </p>
+                    <p>
+                        Gender *: Male: <input type="radio" name="gender" id="male" required> Female: <input type="radio" name="gender" id="female" required>
+                    </p>
+                    <p>
+                        <textarea placeholder="Address" name="address" id="address" cols="30" rows="6"></textarea>
+                    </p>
+                    <p><input placeholder="Email*" type="email" name="email" id="email" required>
+                    </p>
+                    <p><input placeholder="Pincode*" type="number" name="pincode" id="pincode" required></p>
+                </fieldset>
+                <fieldset style="width: 400px;">
+                    <legend>
+                        <h2>Payment Details</h2>
+                    </legend>
+                    <p>
+                        Card Type: *
+                        <select name="card_type" id="card_type" style="margin-left: 0.8cm;" required>
+                            <option value="">--Select a Card Type--</option>
+                            <option value="Credit">Credit Card</option>
+                            <option value="Debit">Debit Card</option>
+                            
+
+                        </select>
+                        
+                    </p>
+                    <p>
+                        <input placeholder="Card Number*" type="number" name="card_no" id="card_no" style="margin-left: 3.1cm;" required>
+                    </p>
+                    <p>
+                        Expiration Date:* <input type="date" name="exp_date" id="exp_date" required>
+                    </p>
+                    <p><input placeholder="CVV*" type="password" name="cvv" id="cvv" style="margin-left: 3.1cm;" required></p>
+                </fieldset>
+            </div>
+            <br>
+            <center>
+                <a href="order_status.html"><button type="button" class="pay">Check Out</button></a>
+            </center>
+    </form><br><br>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy; 2021 | OnlineShopping.com</a>
+    </footer>
+</body>
+
+</html>

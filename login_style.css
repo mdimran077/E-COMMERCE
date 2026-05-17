@@ -1,0 +1,160 @@
+h1 {
+    margin-left: 475px;
+    margin-right: 445px;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.35s;
+}
+
+h1:hover {
+    transform: translateY(-5px);
+}
+
+nav {
+    background-color: #cb3d82;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.register {
+    float: right;
+    background-color: #d30404ec;
+    color: #ffffff;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin: 10px;
+}
+
+
+/* Bordered form */
+
+form {
+    background-image: url(login.webp);
+    border: 3px solid #e4418d;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: hsl(324, 73%, 60%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
+    width: auto;
+    float: left;
+    padding: 8px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the avatar image inside this container */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+/* Avatar image */
+
+img.avatar {
+    margin-left: 140px;
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 20px;
+    width: 50%;
+    float: center;
+}
+
+
+/* The "Forgot password" text */
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.new {
+    background-color: #040304;
+    color: #fe0c0c;
+    cursor: pointer;
+    font-weight: bold;
+    width: 20px;
+    height: 45px;
+    font-size: 18px;
+    padding: 8px 292px;
+    transition: 0.35s;
+}
+
+.new:hover {
+    background-color: #13ca35;
+}
+
+footer {
+    background-color: #be2065;
+}
+
+footer a {
+    background-color: #333;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

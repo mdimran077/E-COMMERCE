@@ -1,0 +1,90 @@
+h1 {
+    margin-left: 550px;
+    margin-right: 530px;
+    border-style: solid;
+    transition: 0.35s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover {
+    transform: translateY(-5px);
+}
+
+body {
+    background-size: 100% 100%;
+}
+
+div {
+    background-image: url(login.webp);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.md {
+    margin: 10px;
+    width: 202px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.mn {
+    margin: -5px;
+    width: 202px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.detail {
+    margin: 10px;
+    margin-left: 25px;
+    width: 413px;
+    height: 45px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.new {
+    background-color: #78f578;
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    padding: 8px 10px;
+    transition: 0.1s;
+}
+
+.new:hover {
+    background-color: rgb(23, 24, 23);
+}
+
+.placeholder {
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    background-color: #333;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
